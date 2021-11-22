@@ -1,0 +1,144 @@
+<!doctype html>
+<html>
+<head>
+ <meta charset="utf-8">
+ <title>Tablasen html</title>
+	<style type="text/css">
+		h1{
+			color: #E2d5d0; font-size: 40px;
+			height: 100px;
+			padding: 40px; 
+			text-align: center;
+		}
+		h2{
+		color: #fabc28; 
+		font-size: 32px;
+		padding: 15px 15px 15px 0px;
+		}
+	header,footer,main{
+		width: 1024px;
+		text-align: center;
+		margin: 0 auto;/*Centra la caja automaticamente en horizontal*/
+		
+		
+		
+	}
+	header,footer{
+		height: 100px;
+		padding: : 40px;
+		text-align: center;
+		background-color: #5c5489; 
+	}
+	nav{
+		text-align: center;
+		background-color:#fabc28; 
+	}
+	main{
+		height: auto;
+		background-color:#2a2642 ;  
+		padding: 10px;
+	}
+	section{
+		background-color: #d1dee4;
+		margin: 30px; 
+		padding: 20px; 
+		border: solid 5px #fabc28; 
+	}
+	p{
+	 padding: 10px; 	
+	}
+		table{
+			border-collapse: collapse;
+		}
+		th,td{
+			padding: 10px;
+		}
+		th{
+			text-align: left;
+			background-color: #2a2642;
+			color: #e2d5d0
+		}
+		td{
+			background-color: #E2D5D0
+		}
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1>TABLAS EN HTML</h1>
+	</header>
+	<nav>
+		<p>Aquí va el menú</p>
+	</nav>
+	<main>
+		<section><h2>Tabla</h2>
+		<h2>Tabla simple</h2>
+			<table border="1">
+				<thead>
+					<tr>
+						<th>Nombre</th>
+						<th>mail</th>
+						<th>Teléfono</th>
+					</tr>
+					
+				</thead>
+				<tbody>
+					<tr>
+						<td>Bianca Méndez</td>
+						<td>bianmh71@gmail.com</td>
+						<td>2221648717</td>
+					</tr>
+					<tr>
+						<td>Benito Huerta</td>
+						<td>benas.89@gmail.com</td>
+						<td>2224731237</td>
+					</tr>
+					<tr>
+						<td>Maximiliano Tellez</td>
+						<td>Maxi.Tellez@gmail.com</td>
+						<td>2221345676</td>
+					</tr>
+				</tbody>
+				
+			</table>
+		</section>
+		<section>
+		 <h2>Tabla con celda que abarca dos columnas</h2>
+			<table border="1">
+				<thead>
+					<tr>
+						<th>Nombre</th>
+						<th colspan="2">Teléfonos</th>
+						
+					</tr>
+					
+				</thead>
+				<tbody>
+					<tr>
+						<td>Georgina López</td>
+						<td>22214356</td>
+						<td>67832683</td>
+					</tr>
+					<tr>
+						<td>Ricardo Gonzáles</td>
+						<td>367136879</td>
+						<td>672637638</td>
+					</tr>
+					<tr>
+						<td>Blanca Hernández</td>
+						<td>78327877987</td>
+						<td>38263638638</td>
+					</tr>
+					
+					
+				</tbody>
+				
+			</table>
+		</section>
+	</main>
+	<footer>
+		<h3 style="color: #E2D5D0; font-size: 20px;">Elaborado por Bianca Méndez</h3>
+	</footer>
+</body>
+</html>

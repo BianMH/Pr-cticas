@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* CSS Document */
+
+.stylo {
+}
+header, main, nav, footer{
+	margin: 0px auto;
+	padding: 30px;
+	text-align: center
+}
+section{
+	
+	margin:50px; 
+	padding: 50px;
+	text-align: justify; 
+	background-color: mediumpurple;     
+	border: solid 5px #F56D11;  
+}
+h2
+h5{
+	font-size: 20px;
+	text-align: center;
+	image-orientation: center; 
+}
+h6{
+	font-size: 20px;
+	text-align: center;
+}
+header{
+			
+			font-size: 25px;
+			height: 60px;
+			background-color: black;   
+			padding: 30px;
+			color:aliceblue; 
+}
+footer{
+			
+			font-size: 20px;
+			height: 40px;
+			background-color: purple; 
+			padding: 30px;
+			color: #FFF4C9;
+}
+main{
+	heigth: 50px;
+	background-color:dimgrey; 
+	padding: 30px
+}
+nav{
+			padding: 30;
+			height:10px;
+			background-color: darkorchid; 
+}
+nav ul li{
+			display: inline-block;
+			margin-right: 10px;
+			margin-left: 10px;
+			padding: 2px;
+			text-decoration: none;
+}
+.box-conteiner-flex
+ 
+			background-color: dimgrey;
+			display: flex; 
+		}
+		.box-conteiner-flex> div{
+			background-color: darkorchid;
+			margin: 10px;
+			padding: 20px;
+			font font-size: 20px;
+		} 
+					text-align: center;
+
+}
+a:visited{
+	color:#00B636;
+}
+
+a:link{
+	color: #C000FF;
+}
+
+a:hover{
+	color:#0E0303;
+	background-color: aliceblue;
+}.flor1 {
+}
